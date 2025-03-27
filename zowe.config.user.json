@@ -1,0 +1,16 @@
+{
+    "$schema": "./zowe.schema.json",
+    "profiles": {
+        "zosmf_plain": {
+            "type": "zosmf",
+            "properties": {
+                "host": "lpar.0",
+                "port": 1443,
+                "rejectUnauthorized": false
+            },
+            "secure": []
+        }
+    },
+    "defaults": {},
+    "autoStore": true
+}

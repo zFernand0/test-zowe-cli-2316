@@ -1,0 +1,16 @@
+{
+  "name": "cli-2460",
+  "version": "1.0.0",
+  "main": "a-test.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@zowe/imperative": "file:imperative-fix.tgz",
+    "@zowe/secrets-for-zowe-sdk": "8.10.4"
+  }
+}
