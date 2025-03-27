@@ -413,10 +413,6 @@
                     "description": "Default ssh profile",
                     "type": "string"
                 },
-                "mq": {
-                    "description": "Default mq profile",
-                    "type": "string"
-                },
                 "zftp": {
                     "description": "Default zftp profile",
                     "type": "string"

@@ -5,6 +5,7 @@
   - Provide a dummy user and password
 3. `npm run test`
 
-**Note:**
-Use `npm run test:fix` to test the fix.
-USe `npm run test:bug` to see the bug.
+**Notes:**
+- Use `npm run test:fix` to test the fix.
+- Use `npm run test:bug` to see the bug.
+- When testing the VSIX, please set the ZOWE_CLI_HOME to root of this project

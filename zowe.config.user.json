@@ -6,6 +6,8 @@
             "properties": {
                 "host": "lpar.0",
                 "port": 1443,
+                "user": "validUser",
+                "password": "validPassword",
                 "rejectUnauthorized": false
             },
             "secure": []

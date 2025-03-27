@@ -1,4 +1,6 @@
 node_modules/
 logs/
+# settings/
+.events/
 extenders.json
 package-lock.json
