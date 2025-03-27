@@ -1,14 +1,16 @@
 {
-  "name": "cli-2460",
-  "version": "1.0.0",
-  "main": "a-test.js",
+  "name": "test-cli-2316",
+  "version": "0.0.1",
+  "main": "test.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "node test.js",
+    "test:fix": "node test.js 1",
+    "test:bug": "node test.js 0"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "author": "zFernand0",
+  "license": "MIT",
+  "description": "This is a repository for testing Zowe CLI #2316",
   "dependencies": {
     "@zowe/imperative": "file:imperative-fix.tgz",
     "@zowe/secrets-for-zowe-sdk": "8.10.4"

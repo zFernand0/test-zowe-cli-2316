@@ -8,7 +8,7 @@ const util = require("node:util");
         overrideWithEnv: true,
         credMgrOverride: ProfileCredentials.defaultCredMgrWithKeytar(requireKeytar),
 
-        checkLevelLayers: true, // New option
+        checkLevelLayers: process.argv[2] ? parseInt(process.argv[2]) : true, // New option
     });
     await profInfo.readProfilesFromDisk({ homeDir, projectDir: false }); // Works
 
